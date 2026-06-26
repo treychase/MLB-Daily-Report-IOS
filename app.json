@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "name": "MLB Daily Report",
+    "slug": "mlb-daily-report",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "dark",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#080c10"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.treychase.mlbdailyreport",
+      "buildNumber": "1"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#080c10"
+      },
+      "package": "com.treychase.mlbdailyreport"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-font"
+    ]
+  }
+}
